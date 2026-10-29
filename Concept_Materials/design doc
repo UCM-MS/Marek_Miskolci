@@ -1,0 +1,16 @@
+Opis hry:
+-Typing game, kde by hrac pilotoval ponorku a potapal lode vybranymi slovami(tazsie obtiaznosti by mali aj gramaticky nespravne slova, ktore by bolo nutne vynechavat)
+-Cielova skupina: Zakladna skola
+-ako ubieha cas postupne, lode utocia naspat, bud delami, ktorych presnost je nahodna alebo vybusnymi sudmi(su na nich kratke slova), ktore hrac musi znicit kym na neho spadnu
+-2D, 16-bitova grafika
+-Attack animacie(pre lode, mozno speci itemy) budu na oddelenom okne, co prekryva hlavny game screen, zjednodusi to animovanie
+
+Bude to vsetko v ramci jedneho zaberu, bez otacania
+-budu tam pribudat, postupom casu utocit na hraca(delami, a podla RNG trafia/netrafia)
+-tiez mi napadlo ze kedze hrac hra za ponorku, tak ze by miestami zhodili lode depth charges(vybusne sudy), co musi hrac zneskodnit rychlym pisanim kratkych slov
+  
+Obtiaznosti
+Novice: najpomalsie, s trenovacimi koleckami, stedrejsi casovy limit na hru, na nacvicenie, viac kratsich slov
+Easy: nieco medzi novice a medium, znacne pomalsi casovac, lode utocia, no ich presnost je horsia a bez sudovych utokov, kratke a stredne slova
+Medium: casovac, lode utocia ked uplynie casovy interval(maju celkom slusnu sancu netrafit), sanca padajucich sudov(tam budu super kratke slova, pomaly pojdu dole), kompletny sortiment slov
+Hard: decoy lode s gramaticky nespravnymi slovami, viacej padajucich sudov,
